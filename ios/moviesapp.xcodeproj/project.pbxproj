@@ -37,6 +37,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = moviesapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = moviesapp/main.m; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-moviesapp-moviesappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moviesapp-moviesappTests.release.xcconfig"; path = "Target Support Files/Pods-moviesapp-moviesappTests/Pods-moviesapp-moviesappTests.release.xcconfig"; sourceTree = "<group>"; };
+		236B630E2722FADE0035386B /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-moviesapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moviesapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-moviesapp-moviesappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moviesapp-moviesappTests.debug.xcconfig"; path = "Target Support Files/Pods-moviesapp-moviesappTests/Pods-moviesapp-moviesappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = moviesapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,6 +97,14 @@
 			name = moviesapp;
 			sourceTree = "<group>";
 		};
+		236B630D2722FABF0035386B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				236B630E2722FADE0035386B /* Ionicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +125,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				236B630D2722FABF0035386B /* Fonts */,
 				13B07FAE1A68108700A75B9A /* moviesapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* moviesappTests */,
@@ -145,7 +155,6 @@
 				6C97AB639B58BBB4B15BBE30 /* Pods-moviesapp-moviesappTests.debug.xcconfig */,
 				1D0AE47A65C8663E3B452821 /* Pods-moviesapp-moviesappTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
